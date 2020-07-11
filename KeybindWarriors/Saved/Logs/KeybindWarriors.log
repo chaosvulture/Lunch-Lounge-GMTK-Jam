@@ -2342,3 +2342,220 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.07.11-11.16.49:881][ 88]LogFileHelpers: Saving map 'L_GridTestEnv' took 0.119
 [2020.07.11-11.16.49:898][ 88]AssetCheck: New page: Asset Save: L_GridTestEnv
 [2020.07.11-11.16.49:898][ 88]LogContentValidation: Display: Validating World /Game/Maps/L_GridTestEnv.L_GridTestEnv
+[2020.07.11-11.21.34:565][465]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.21.34:656][465]LogUObjectHash: Compacting FUObjectHashTables data took   7.22ms
+[2020.07.11-11.21.35:235][486]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacterCC01E8D14D8307DDC28E7D98D3D53EBF.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.21.35:256][486]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.21.35:256][486]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.21.59:898][881]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.21.59:987][881]LogUObjectHash: Compacting FUObjectHashTables data took   6.55ms
+[2020.07.11-11.22.00:578][903]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacterA95FEEFE4BA8DEA63809DDBEA07DA880.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.22.00:599][903]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.22.00:599][903]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.24.38:643][586]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.24.38:729][586]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2020.07.11-11.24.39:393][612]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacter6F122271435BE4C502842797B959BB77.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.24.39:414][612]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.24.39:414][612]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.24.42:834][805]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.24.42:926][805]LogUObjectHash: Compacting FUObjectHashTables data took   6.75ms
+[2020.07.11-11.24.43:531][828]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacterBBF745004D715E99152017ADAF3402C3.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.24.43:553][828]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.24.43:553][828]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.26.49:800][356]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2020.07.11-11.26.49:804][356]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_GridTestEnv' took 0.058
+[2020.07.11-11.26.49:805][356]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Character/BP_GridMovementCharacter] ([1] browsable assets)...
+[2020.07.11-11.26.49:805][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Character/BP_GridMovementCharacter]
+[2020.07.11-11.26.49:843][356]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacter_Auto4F0EC357C482B8264EF763EAD5FB42C70.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Autosaves/Game/TopDownBP/Character/BP_GridMovementCharacter_Auto4.uasset'
+[2020.07.11-11.26.49:846][356]LogFileHelpers: Auto-saving content packages took 0.041
+[2020.07.11-11.41.31:493][874]BlueprintLog: New page: Compile BP_GridTile
+[2020.07.11-11.41.31:612][874]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2020.07.11-11.41.58:248][855]LogUObjectHash: Compacting FUObjectHashTables data took   6.95ms
+[2020.07.11-11.41.58:285][855]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/L_GridTestEnv_Auto5D65F398C45BFDEDC99DFF9AB946C5E84.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Autosaves/Game/Maps/L_GridTestEnv_Auto5.umap'
+[2020.07.11-11.41.58:287][855]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_GridTestEnv' took 0.095
+[2020.07.11-11.41.58:287][855]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2020.07.11-11.41.58:287][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GridSystem/BP_GridTile] ([1] browsable assets)...
+[2020.07.11-11.41.58:299][855]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile]
+[2020.07.11-11.41.58:299][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/GridSystem/BP_GridTile]
+[2020.07.11-11.41.58:331][855]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTile_Auto5DD265C2645BA99CB0F47839655B3DB90.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Autosaves/Game/GridSystem/BP_GridTile_Auto5.uasset'
+[2020.07.11-11.41.58:333][855]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Character/BP_GridMovementCharacter] ([1] browsable assets)...
+[2020.07.11-11.41.58:333][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Character/BP_GridMovementCharacter]
+[2020.07.11-11.41.58:377][855]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacter_Auto5E25E6BD94871348588BEBF9F204EE1CE.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Autosaves/Game/TopDownBP/Character/BP_GridMovementCharacter_Auto5.uasset'
+[2020.07.11-11.41.58:378][855]LogFileHelpers: Auto-saving content packages took 0.092
+[2020.07.11-11.44.13:812][ 96]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2020.07.11-11.44.15:509][ 96]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.07.11-11.44.25:003][903]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/GridSystem/E_Buttons.E_Buttons
+[2020.07.11-11.44.41:225][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/E_Buttons" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/E_Buttons.uasset" SILENT=true
+[2020.07.11-11.44.41:236][166]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/E_ButtonsD49ECC0E4482D7EF0F3609A11CB509FE.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/E_Buttons.uasset'
+[2020.07.11-11.44.41:458][166]AssetCheck: New page: Asset Save: E_Buttons
+[2020.07.11-11.44.41:458][166]LogContentValidation: Display: Validating UserDefinedEnum /Game/GridSystem/E_Buttons.E_Buttons
+[2020.07.11-11.44.48:816][642]BlueprintLog: New page: Compile BP_GridTile
+[2020.07.11-11.44.48:932][642]LogUObjectHash: Compacting FUObjectHashTables data took   6.32ms
+[2020.07.11-11.44.50:053][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/BP_GridTile" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset" SILENT=true
+[2020.07.11-11.44.50:079][704]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTileB486DEB64CC778E11666AF90254E7F35.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset'
+[2020.07.11-11.44.50:106][704]AssetCheck: New page: Asset Save: BP_GridTile
+[2020.07.11-11.44.50:106][704]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-11.47.29:662][561]BlueprintLog: New page: Compile BP_GridTile
+[2020.07.11-11.47.29:783][561]LogUObjectHash: Compacting FUObjectHashTables data took   7.57ms
+[2020.07.11-11.47.57:560][273]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.47.57:656][273]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2020.07.11-11.53.22:165][463]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.53.22:270][463]LogUObjectHash: Compacting FUObjectHashTables data took   7.60ms
+[2020.07.11-11.53.22:931][489]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacterBBC0EA914EC0B5574FCC1D9EAC2E42F4.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.53.22:957][489]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.53.22:957][489]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.53.24:070][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/BP_GridTile" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset" SILENT=true
+[2020.07.11-11.53.24:102][549]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTile6E543E2D4ABF9661E4351D9E5C498765.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset'
+[2020.07.11-11.53.24:122][549]AssetCheck: New page: Asset Save: BP_GridTile
+[2020.07.11-11.53.24:123][549]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-11.54.15:541][745]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.54.15:642][745]LogUObjectHash: Compacting FUObjectHashTables data took   6.72ms
+[2020.07.11-11.54.16:275][769]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacter1D40DA9A433DB43538E7579399BA5E52.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.54.16:297][769]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.54.16:297][769]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.55.05:472][678]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.55.05:574][678]LogUObjectHash: Compacting FUObjectHashTables data took   6.86ms
+[2020.07.11-11.55.06:194][703]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacterD441673644BECB290873EAA43AFD6AD5.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.55.06:215][703]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.55.06:215][703]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.55.22:090][625]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.55.22:190][625]LogUObjectHash: Compacting FUObjectHashTables data took   6.42ms
+[2020.07.11-11.55.22:775][646]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacterFA5B95CA49E912F46A34AA8ABDBEFC2F.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.55.22:796][646]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.55.22:796][646]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.55.32:763][267]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.55.32:870][267]LogUObjectHash: Compacting FUObjectHashTables data took   6.65ms
+[2020.07.11-11.55.33:430][289]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacter2D6C946642F8868C59CE5D8B466DC266.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.55.33:451][289]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.55.33:451][289]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.55.42:037][859]BlueprintLog: New page: Compile BP_GridMovementCharacter
+[2020.07.11-11.55.42:142][859]LogUObjectHash: Compacting FUObjectHashTables data took   6.79ms
+[2020.07.11-11.55.42:717][882]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridMovementCharacter97EE96A443C19C23DB09D29234D7F5BB.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Character/BP_GridMovementCharacter.uasset'
+[2020.07.11-11.55.42:738][882]AssetCheck: New page: Asset Save: BP_GridMovementCharacter
+[2020.07.11-11.55.42:738][882]LogContentValidation: Display: Validating Blueprint /Game/TopDownBP/Character/BP_GridMovementCharacter.BP_GridMovementCharacter
+[2020.07.11-11.56.53:713][575]LogUObjectHash: Compacting FUObjectHashTables data took   6.39ms
+[2020.07.11-11.56.53:747][575]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/L_GridTestEnv_Auto63C862D6D49E173B9B3364992C4EB0B61.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Autosaves/Game/Maps/L_GridTestEnv_Auto6.umap'
+[2020.07.11-11.56.53:754][575]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_GridTestEnv' took 0.093
+[2020.07.11-11.56.53:754][575]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
+[2020.07.11-12.00.39:693][357]BlueprintLog: New page: Compile BP_GridTile
+[2020.07.11-12.00.39:826][357]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2020.07.11-12.00.40:524][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/BP_GridTile" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset" SILENT=true
+[2020.07.11-12.00.40:560][391]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTile5F50A1ED4687DD51EE6718931218AF71.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset'
+[2020.07.11-12.00.40:583][391]AssetCheck: New page: Asset Save: BP_GridTile
+[2020.07.11-12.00.40:583][391]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-12.06.53:950][999]LogUObjectHash: Compacting FUObjectHashTables data took   7.01ms
+[2020.07.11-12.06.53:985][999]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/L_GridTestEnv_Auto7103356734D62AA4E640414A2808D4975.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Autosaves/Game/Maps/L_GridTestEnv_Auto7.umap'
+[2020.07.11-12.06.53:987][999]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/L_GridTestEnv' took 0.092
+[2020.07.11-12.06.53:987][999]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.092
+[2020.07.11-12.11.15:396][711]LogSlate: Window 'E_Buttons' being destroyed
+[2020.07.11-12.11.15:404][711]LogSlate: Window 'E_Buttons' being destroyed
+[2020.07.11-12.11.15:422][711]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-12.11.15:422][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-12.11.15:533][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.07.11-12.11.15:533][711]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-12.11.15:533][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-12.11.18:565][961]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2020.07.11-12.11.18:822][961]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.07.11-12.11.18:845][961]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/L_GridTestEnv5F75EB8847BE321AD12C76879AF55417.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Maps/L_GridTestEnv.umap'
+[2020.07.11-12.11.18:881][961]LogFileHelpers: Saving map 'L_GridTestEnv' took 0.167
+[2020.07.11-12.11.18:897][961]AssetCheck: New page: Asset Save: L_GridTestEnv
+[2020.07.11-12.11.18:897][961]LogContentValidation: Display: Validating World /Game/Maps/L_GridTestEnv.L_GridTestEnv
+[2020.07.11-12.11.25:820][491]LogEditorViewport: Clicking Background
+[2020.07.11-12.11.26:242][526]LogEditorViewport: Clicking on Actor (LMB): BP_GridTile_C (BP_GridTile)
+[2020.07.11-12.11.36:033][513]Cmd: TRANSACTION UNDO
+[2020.07.11-12.11.36:033][513]LogEditorTransaction: Undo Move Actors
+[2020.07.11-12.11.51:997][976]LogEditorViewport: Clicking Background
+[2020.07.11-12.11.53:747][156]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-12.12.09:829][272]LogEditorViewport: Clicking on Actor (LMB): BP_GridTile_C (BP_GridTile54)
+[2020.07.11-12.12.19:257][970]LogStaticMesh: Building static mesh detail_crystal_detail_crystal...
+[2020.07.11-12.12.19:306][970]LogStaticMesh: Built static mesh [0.05s] /Game/Geometry/TowerDefence/detail_crystal_detail_crystal.detail_crystal_detail_crystal
+[2020.07.11-12.12.19:322][970]LogMaterial: Display: Missing cached shader map for material crystal, compiling. 
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.11-12.12.19:359][970]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.11-12.12.30:254][615]LogMaterial: Display: Missing cached shader map for material dirt, compiling. 
+[2020.07.11-12.12.30:269][615]LogStaticMesh: Building static mesh snow_tile_cornerSquare_snow_tile_cornerSquare...
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.11-12.12.30:271][615]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.11-12.12.30:324][615]LogStaticMesh: Built static mesh [0.06s] /Game/Geometry/TowerDefence/snow_tile_cornerSquare_snow_tile_cornerSquare.snow_tile_cornerSquare_snow_tile_cornerSquare
+[2020.07.11-12.12.30:337][615]LogMaterial: Display: Missing cached shader map for material snowRoad, compiling. 
+[2020.07.11-12.12.30:359][615]LogMaterial: Display: Missing cached shader map for material snow, compiling. 
+[2020.07.11-12.12.30:383][615]LogMaterial: Display: Missing cached shader map for material snowRoadDark, compiling. 
+[2020.07.11-12.12.30:844][624]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 45
+[2020.07.11-12.12.31:934][658]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 39
+[2020.07.11-12.12.33:047][695]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 34
+[2020.07.11-12.12.33:182][700]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 29
+[2020.07.11-12.12.33:360][705]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 25
+[2020.07.11-12.12.33:386][706]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2020.07.11-12.12.33:570][713]Cmd: TRANSACTION UNDO
+[2020.07.11-12.12.33:570][713]LogEditorTransaction: Undo Move Components
+[2020.07.11-12.12.34:216][722]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2020.07.11-12.12.34:281][723]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 15
+[2020.07.11-12.12.36:507][778]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 13
+[2020.07.11-12.12.37:429][808]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2020.07.11-12.12.37:477][809]Cmd: SELECT NONE
+[2020.07.11-12.12.38:609][851]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 9
+[2020.07.11-12.12.38:767][859]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2020.07.11-12.12.39:311][888]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.07.11-12.12.39:673][906]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.11-12.12.41:057][973]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.07.11-12.12.41:096][975]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.07.11-12.12.41:171][977]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2020.07.11-12.12.41:439][991]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.07.11-12.12.43:330][154]LogEditorViewport: Clicking on Actor (LMB): BP_GridTile_C (BP_GridTile93)
+[2020.07.11-12.13.25:649][977]LogStaticMesh: Building static mesh tile_tree_tile_tree...
+[2020.07.11-12.13.25:688][977]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/TowerDefence/tile_tree_tile_tree.tile_tree_tile_tree
+[2020.07.11-12.13.25:703][977]LogMaterial: Display: Missing cached shader map for material foliage, compiling. 
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.11-12.13.25:725][977]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.11-12.13.41:618][648]LogStaticMesh: Building static mesh tile_rock_tile_rock...
+[2020.07.11-12.13.41:657][648]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/TowerDefence/tile_rock_tile_rock.tile_rock_tile_rock
+[2020.07.11-12.14.19:847][697]LogStaticMesh: Building static mesh tile_straight_tile_straight...
+[2020.07.11-12.14.19:888][697]LogStaticMesh: Built static mesh [0.04s] /Game/Geometry/TowerDefence/tile_straight_tile_straight.tile_straight_tile_straight
+[2020.07.11-12.14.19:902][697]LogMaterial: Display: Missing cached shader map for material dirtDark, compiling. 
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 15
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3
+[2020.07.11-12.14.19:922][697]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.11-12.14.25:411][850]BlueprintLog: New page: Compile BP_GridTile
+[2020.07.11-12.14.25:644][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.07.11-12.14.26:784][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/BP_GridTile" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset" SILENT=true
+[2020.07.11-12.14.26:819][890]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTile9BE125324AA3B66DC54217BFCF96E0C2.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset'
+[2020.07.11-12.14.26:838][890]AssetCheck: New page: Asset Save: BP_GridTile
+[2020.07.11-12.14.26:838][890]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-12.14.31:133][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/BP_GridTile" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset" SILENT=true
+[2020.07.11-12.14.31:154][ 82]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTile9DA5AD304B95BCB0C3FEBCA93FA6BA5E.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset'
+[2020.07.11-12.14.31:177][ 82]AssetCheck: New page: Asset Save: BP_GridTile
+[2020.07.11-12.14.31:177][ 82]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-12.14.38:738][623]LogEditorViewport: Clicking on Actor (LMB): BP_GridTile_C (BP_GridTile10)
+[2020.07.11-12.14.41:177][810]Cmd: SELECT NONE
+[2020.07.11-12.14.41:588][843]LogEditorViewport: Clicking Background
+[2020.07.11-12.14.47:479][385]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.07.11-12.14.47:659][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.07.11-12.14.47:738][385]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/L_GridTestEnvAFAE4EE04CC1304526C019A22B7A1B70.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Maps/L_GridTestEnv.umap'
+[2020.07.11-12.14.47:776][385]LogFileHelpers: Saving map 'L_GridTestEnv' took 0.150
+[2020.07.11-12.14.47:790][385]AssetCheck: New page: Asset Save: L_GridTestEnv
+[2020.07.11-12.14.47:790][385]LogContentValidation: Display: Validating World /Game/Maps/L_GridTestEnv.L_GridTestEnv
+[2020.07.11-12.15.47:356][413]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.07.11-12.16.36:098][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
