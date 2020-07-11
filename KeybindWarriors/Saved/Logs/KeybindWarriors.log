@@ -1,8 +1,8 @@
-﻿Log file open, 07/11/20 11:09:22
+﻿Log file open, 07/11/20 11:51:52
 LogInit: Display: Running engine for game: KeybindWarriors
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 4.320629
+LogStats: Stats thread started at 1.851370
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -135,17 +135,19 @@ LogInit:  - BufferSize = 65536
 LogOnline: OSS: Creating online subsystem instance for: NULL
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
 LogInit: Build: ++UE4+Release-4.25-CL-13594126
 LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
 LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  -EpicPortal -epicusername=Chaosvulture -epicuserid=01b21d7d172f4d50b0787862a1d85add -epiclocale=en
-LogInit: Base Directory: D:/Epic Games/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line:  -EpicPortal -epicusername=daddymemeXD -epicuserid=079c815fc1f24189be5e5d2231c755ef -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +178,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,465 +196,1029 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
-[2020.07.11-09.09.22:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.07.11-09.09.22:907][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.07.11-09.09.22:908][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
-[2020.07.11-09.09.22:908][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
-[2020.07.11-09.09.22:911][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:911][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.11-09.09.22:911][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.11-09.09.22:911][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:911][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.11-09.09.22:911][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:911][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.11-09.09.22:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.11-09.09.22:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.11-09.09.22:914][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.11-09.09.22:914][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.07.11-09.09.22:914][  0]LogHAL: Display: Platform has ~ 16 GB [17090748416 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.07.11-09.09.22:914][  0]LogInit: Going up to parent DeviceProfile []
-[2020.07.11-09.09.22:914][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.07.11-09.09.22:914][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.07.11-09.09.22:915][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:915][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.07.11-09.09.22:916][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.07.11-09.09.22:917][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.07.11-09.09.22:917][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.07.11-09.09.22:917][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.07.11-09.09.22:917][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
-[2020.07.11-09.09.22:917][  0]LogInit: Computer: MSI
-[2020.07.11-09.09.22:917][  0]LogInit: User: User
-[2020.07.11-09.09.22:917][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.07.11-09.09.22:917][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.07.11-09.09.22:917][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.07.11-09.09.22:917][  0]LogMemory: Platform Memory Stats for Windows
-[2020.07.11-09.09.22:917][  0]LogMemory: Process Physical Memory: 114.16 MB used, 114.17 MB peak
-[2020.07.11-09.09.22:917][  0]LogMemory: Process Virtual Memory: 97.46 MB used, 97.46 MB peak
-[2020.07.11-09.09.22:917][  0]LogMemory: Physical Memory: 7673.25 MB used,  8625.75 MB free, 16299.01 MB total
-[2020.07.11-09.09.22:917][  0]LogMemory: Virtual Memory: 5165.91 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2020.07.11-09.09.23:867][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.07.11-09.09.23:988][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.07.11-09.09.23:992][  0]LogInit: Using OS detected language (en-US).
-[2020.07.11-09.09.23:992][  0]LogInit: Using OS detected locale (en-NL).
-[2020.07.11-09.09.23:997][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.07.11-09.09.24:337][  0]LogInit: Setting process to per monitor DPI aware
-[2020.07.11-09.09.24:385][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.07.11-09.09.24:385][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.07.11-09.09.24:508][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.11-09.09.24:508][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.07.11-09.09.24:508][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.07.11-09.09.24:508][  0]LogD3D11RHI: D3D11 adapters:
-[2020.07.11-09.09.24:661][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2020.07.11-09.09.24:661][  0]LogD3D11RHI:       8079/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.07.11-09.09.24:667][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.07.11-09.09.24:667][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.07.11-09.09.24:667][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.07.11-09.09.24:684][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.07.11-09.09.24:685][  0]LogD3D11RHI:     GPU DeviceId: 0x1be0 (for the marketing name, search the web for "GPU Device Id")
-[2020.07.11-09.09.24:685][  0]LogWindows: EnumDisplayDevices:
-[2020.07.11-09.09.24:685][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2020.07.11-09.09.24:686][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2020.07.11-09.09.24:687][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2020.07.11-09.09.24:687][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2020.07.11-09.09.24:688][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.07.11-09.09.24:688][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2020.07.11-09.09.24:688][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
-[2020.07.11-09.09.24:688][  0]LogD3D11RHI:      Driver Date: 7-5-2020
-[2020.07.11-09.09.24:689][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
-[2020.07.11-09.09.24:795][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.07.11-09.09.24:797][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.07.11-09.09.24:797][  0]LogD3D11RHI: Async texture creation enabled
-[2020.07.11-09.09.24:797][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.07.11-09.09.24:831][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.07.11-09.09.25:178][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.07.11-09.09.25:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.07.11-09.09.25:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.07.11-09.09.25:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.07.11-09.09.25:237][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.07.11-09.09.25:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.07.11-09.09.25:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.07.11-09.09.25:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.07.11-09.09.25:337][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.07.11-09.09.25:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.07.11-09.09.25:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.07.11-09.09.25:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.07.11-09.09.25:501][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.07.11-09.09.25:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.07.11-09.09.25:567][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.07.11-09.09.25:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.07.11-09.09.25:646][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.07.11-09.09.25:680][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.07.11-09.09.25:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.07.11-09.09.25:715][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.07.11-09.09.25:740][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.07.11-09.09.25:933][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Intermediate/Shaders/WorkingDirectory/7608/).
-[2020.07.11-09.09.25:934][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/644650534E1FBACA82006BB2974F2A34/'.
-[2020.07.11-09.09.25:935][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.07.11-09.09.25:936][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.07.11-09.09.25:936][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.07.11-09.09.27:786][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.07.11-09.09.27:882][  0]LogDerivedDataCache: Loaded boot cache 0.10s 76MB C:/Users/User/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.11-09.09.27:883][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.07.11-09.09.27:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.11-09.09.27:883][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.07.11-09.09.27:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.11-09.09.27:883][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.07.11-09.09.27:927][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.07.11-09.09.27:928][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.11-09.09.27:928][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.07.11-09.09.27:932][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.07.11-09.09.27:932][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.07.11-09.09.27:932][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.07.11-09.09.28:137][  0]LogSlate: Using FreeType 2.10.0
-[2020.07.11-09.09.28:138][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.11-09.09.28:227][  0]LogAssetRegistry: FAssetRegistry took 0.0089 seconds to start up
-[2020.07.11-09.09.28:638][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.11-09.09.28:755][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.07.11-09.09.28:755][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.07.11-09.09.28:755][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.07.11-09.09.28:755][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.07.11-09.09.28:755][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.07.11-09.09.28:768][  0]LogNetVersion: KeybindWarriors 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 502265331)
-[2020.07.11-09.09.29:615][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (00000199F84C1340), frame # 0
-[2020.07.11-09.09.29:615][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000199F83E7C40), frame # 0
-[2020.07.11-09.09.29:620][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000199F8474A00), frame # 0
-[2020.07.11-09.09.29:820][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.178559 seconds
-[2020.07.11-09.09.29:840][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.07.11-09.09.29:840][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.07.11-09.09.29:840][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.07.11-09.09.30:388][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.07.11-09.09.30:432][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.07.11-09.09.30:543][  0]SourceControl: Source control is disabled
-[2020.07.11-09.09.30:543][  0]SourceControl: Source control is disabled
-[2020.07.11-09.09.30:549][  0]SourceControl: Source control is disabled
-[2020.07.11-09.09.30:555][  0]SourceControl: Source control is disabled
-[2020.07.11-09.09.30:569][  0]SourceControl: Source control is disabled
-[2020.07.11-09.09.31:335][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.07.11-09.09.31:401][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.11-09.09.31:401][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.07.11-09.09.31:461][  0]LogOcInput: OculusInput pre-init called
-[2020.07.11-09.09.31:472][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.07.11-09.09.31:472][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.07.11-09.09.31:542][  0]LogEngine: Initializing Engine...
-[2020.07.11-09.09.31:544][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.11-09.09.31:544][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.07.11-09.09.31:545][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.07.11-09.09.31:841][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.07.11-09.09.31:865][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.07.11-09.09.31:866][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000199FF69FC00), frame # 0
-[2020.07.11-09.09.31:866][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000199FF6C3240), frame # 0
-[2020.07.11-09.09.31:964][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.07.11-09.09.31:964][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.07.11-09.09.31:964][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.07.11-09.09.31:964][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.07.11-09.09.31:964][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.07.11-09.09.31:964][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.07.11-09.09.31:964][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.07.11-09.09.31:964][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.07.11-09.09.31:965][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.07.11-09.09.31:965][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.07.11-09.09.32:334][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.07.11-09.09.32:334][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.07.11-09.09.32:334][  0]LogAudioMixer: Display: 2: FrontCenter
-[2020.07.11-09.09.32:335][  0]LogAudioMixer: Display: 3: LowFrequency
-[2020.07.11-09.09.32:335][  0]LogAudioMixer: Display: 4: BackLeft
-[2020.07.11-09.09.32:335][  0]LogAudioMixer: Display: 5: BackRight
-[2020.07.11-09.09.32:335][  0]LogAudioMixer: Display: 6: SideLeft
-[2020.07.11-09.09.32:335][  0]LogAudioMixer: Display: 7: SideRight
-[2020.07.11-09.09.33:697][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.07.11-09.09.33:702][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.07.11-09.09.33:705][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.07.11-09.09.33:705][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.07.11-09.09.33:706][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.07.11-09.09.33:708][  0]LogInit: FAudioDevice initialized.
-[2020.07.11-09.09.33:708][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.07.11-09.09.33:759][  0]LogDerivedDataCache: Saved boot cache 0.05s 77MB C:/Users/User/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.07.11-09.09.33:764][  0]LogInit: Texture streaming: Enabled
-[2020.07.11-09.09.33:779][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.07.11-09.09.33:779][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.07.11-09.09.33:781][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.07.11-09.09.33:801][  0]LogInit: Transaction tracking system initialized
-[2020.07.11-09.09.33:820][  0]BlueprintLog: New page: Editor Load
-[2020.07.11-09.09.33:930][  0]LocalizationService: Localization service is disabled
-[2020.07.11-09.09.34:133][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.07.11-09.09.34:133][  0]LogCook: Display: Mobile HDR setting 1
-[2020.07.11-09.09.34:259][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/' took 0.00s
-[2020.07.11-09.09.34:560][  0]SourceControl: Source control is disabled
-[2020.07.11-09.09.34:560][  0]LogUnrealEdMisc: Loading editor; pre map load, took 18.933
-[2020.07.11-09.09.34:561][  0]Cmd: MAP LOAD FILE="C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.07.11-09.09.34:562][  0]LightingResults: New page: Lighting Build
-[2020.07.11-09.09.34:562][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.07.11-09.09.34:562][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.07.11-09.09.34:562][  0]MapCheck: New page: Map Check
-[2020.07.11-09.09.34:562][  0]LightingResults: New page: Lighting Build
-[2020.07.11-09.09.34:576][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000199FF69FC00), frame # 0
-[2020.07.11-09.09.34:576][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000199FF6C3240), frame # 0
-[2020.07.11-09.09.34:577][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
-[2020.07.11-09.09.35:705][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2020.07.11-09.09.35:705][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001998885FE00), frame # 0
-[2020.07.11-09.09.35:705][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000199FF04E480), frame # 0
-[2020.07.11-09.09.35:966][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.07.11-09.09.35:985][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
-[2020.07.11-09.09.36:037][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
-[2020.07.11-09.09.36:038][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.07.11-09.09.36:039][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,4ms to complete.
-[2020.07.11-09.09.36:039][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.477
-[2020.07.11-09.09.36:042][  0]LogUnrealEdMisc: Total Editor Startup Time, took 20.414
-[2020.07.11-09.09.36:647][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.11-09.09.36:687][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.11-09.09.36:714][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.11-09.09.36:739][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.07.11-09.09.36:827][  0]LogCollectionManager: Loaded 0 collections in 0.002786 seconds
-[2020.07.11-09.09.37:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Collections/' took 0.00s
-[2020.07.11-09.09.37:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Developers/User/Collections/' took 0.00s
-[2020.07.11-09.09.37:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/User/Documents/GitHub/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Collections/' took 0.00s
-[2020.07.11-09.09.37:063][  0]LogContentBrowser: Native class hierarchy populated in 0.0398 seconds. Added 3427 classes and 821 folders.
-[2020.07.11-09.09.37:085][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2020.07.11-09.09.37:239][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2020.07.11-09.09.37:306][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 0 folders.
-[2020.07.11-09.09.37:746][  0]LogSlate: Took 0.000470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.07.11-09.09.37:754][  0]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.07.11-09.09.37:870][  0]LogSlate: Took 0.053019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.07.11-09.09.38:470][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.07.11-09.09.39:235][  0]LogSlate: Window 'Tutorials' being destroyed
-[2020.07.11-09.09.39:247][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.07.11-09.09.39:248][  0]LogLoad: (Engine Initialization) Total time: 23.62 seconds
-[2020.07.11-09.09.39:248][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.07.11-09.09.39:349][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.07.11-09.09.39:469][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.07.11-09.10.00:964][917]LogAssetRegistry: Asset discovery search completed in 32.7403 seconds
-[2020.07.11-09.10.00:967][917]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+[2020.07.11-09.51.53:518][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.07.11-09.51.53:518][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+[2020.07.11-09.51.53:518][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+[2020.07.11-09.51.53:521][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.07.11-09.51.53:521][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.11-09.51.53:522][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.11-09.51.53:522][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.11-09.51.53:522][  0]LogHAL: Display: Platform has ~ 16 GB [16904536064 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.07.11-09.51.53:522][  0]LogInit: Going up to parent DeviceProfile []
+[2020.07.11-09.51.53:522][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:522][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.07.11-09.51.53:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Scalability.ini]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.07.11-09.51.53:524][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Config/Windows/Engine.ini]
+[2020.07.11-09.51.53:524][  0]LogInit: Computer: DESKTOP-5PPN0V0
+[2020.07.11-09.51.53:524][  0]LogInit: User: timob
+[2020.07.11-09.51.53:524][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.07.11-09.51.53:524][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.11-09.51.53:524][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx)
+[2020.07.11-09.51.53:524][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.11-09.51.53:524][  0]LogMemory: Process Physical Memory: 117.57 MB used, 117.57 MB peak
+[2020.07.11-09.51.53:524][  0]LogMemory: Process Virtual Memory: 101.05 MB used, 101.05 MB peak
+[2020.07.11-09.51.53:524][  0]LogMemory: Physical Memory: 5938.98 MB used,  10182.44 MB free, 16121.42 MB total
+[2020.07.11-09.51.53:524][  0]LogMemory: Virtual Memory: 5207.26 MB used,  134212520.00 MB free, 134217728.00 MB total
+[2020.07.11-09.51.53:529][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.07.11-09.51.53:559][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.07.11-09.51.53:559][  0]LogInit: Using OS detected language (en-GB).
+[2020.07.11-09.51.53:559][  0]LogInit: Using OS detected locale (en-NL).
+[2020.07.11-09.51.53:562][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.07.11-09.51.53:717][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.11-09.51.53:752][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.11-09.51.53:752][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.11-09.51.53:948][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.07.11-09.51.53:948][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.07.11-09.51.53:948][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.07.11-09.51.53:948][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.11-09.51.54:001][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (Feature Level 11_0)
+[2020.07.11-09.51.54:001][  0]LogD3D11RHI:       4018/0/8060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.11-09.51.54:016][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.07.11-09.51.54:016][  0]LogD3D11RHI:       128/0/8060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.11-09.51.54:018][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.11-09.51.54:018][  0]LogD3D11RHI:       0/0/8060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.11-09.51.54:018][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.11-09.51.54:056][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.11-09.51.54:056][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2020.07.11-09.51.54:056][  0]LogWindows: EnumDisplayDevices:
+[2020.07.11-09.51.54:056][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.07.11-09.51.54:056][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.07.11-09.51.54:057][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.07.11-09.51.54:057][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (P:0 D:0)
+[2020.07.11-09.51.54:057][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (P:0 D:0)
+[2020.07.11-09.51.54:057][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (P:0 D:0)
+[2020.07.11-09.51.54:058][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1050 Ti with Max-Q Design' (P:0 D:0)
+[2020.07.11-09.51.54:058][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.07.11-09.51.54:058][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti with Max-Q Design
+[2020.07.11-09.51.54:058][  0]LogD3D11RHI:   Driver Version: 442.92 (internal:26.21.14.4292, unified:442.92)
+[2020.07.11-09.51.54:058][  0]LogD3D11RHI:      Driver Date: 4-7-2020
+[2020.07.11-09.51.54:058][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2020.07.11-09.51.54:099][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.07.11-09.51.54:101][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.07.11-09.51.54:101][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.11-09.51.54:101][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.07.11-09.51.54:120][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.11-09.51.54:361][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.07.11-09.51.54:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.07.11-09.51.54:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.07.11-09.51.54:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.07.11-09.51.54:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.07.11-09.51.54:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.07.11-09.51.54:426][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.07.11-09.51.54:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.07.11-09.51.54:442][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.07.11-09.51.54:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.07.11-09.51.54:458][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.07.11-09.51.54:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.07.11-09.51.54:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.07.11-09.51.54:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.07.11-09.51.54:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.07.11-09.51.54:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.07.11-09.51.54:513][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.07.11-09.51.54:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.07.11-09.51.54:530][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.07.11-09.51.54:530][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.11-09.51.54:536][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.07.11-09.51.54:586][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Intermediate/Shaders/WorkingDirectory/7976/).
+[2020.07.11-09.51.54:586][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/timob/AppData/Local/Temp/UnrealShaderWorkingDir/CFF548744B5E7C8551FC8DB874A4158E/'.
+[2020.07.11-09.51.54:586][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.11-09.51.54:586][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.11-09.51.54:586][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.11-09.51.55:349][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.11-09.51.55:390][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/timob/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.11-09.51.55:390][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/timob/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.07.11-09.51.55:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.11-09.51.55:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.11-09.51.55:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.11-09.51.55:390][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.11-09.51.55:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.11-09.51.55:400][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.11-09.51.55:400][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.07.11-09.51.55:401][  0]LogDerivedDataCache: Using Local data cache path C:/Users/timob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.11-09.51.55:401][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.11-09.51.55:401][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.11-09.51.55:446][  0]LogSlate: Using FreeType 2.10.0
+[2020.07.11-09.51.55:446][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.11-09.51.55:468][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
+[2020.07.11-09.51.55:712][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.11-09.51.55:826][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.11-09.51.55:826][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.07.11-09.51.55:826][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.07.11-09.51.55:826][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.11-09.51.55:826][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.11-09.51.55:839][  0]LogNetVersion: KeybindWarriors 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 502265331)
+[2020.07.11-09.51.56:237][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002085DF0D3C0), frame # 0
+[2020.07.11-09.51.56:237][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002085DE551C0), frame # 0
+[2020.07.11-09.51.56:238][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002085DED4A00), frame # 0
+[2020.07.11-09.51.56:285][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.040599 seconds
+[2020.07.11-09.51.56:289][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.07.11-09.51.56:289][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.07.11-09.51.56:289][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.11-09.51.56:576][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.11-09.51.56:580][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.11-09.51.56:595][  0]LogMaterial: Display: Missing cached shader map for material DefaultMaterial, compiling. 
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 128
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 118
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 108
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 98
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 88
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 78
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 68
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 58
+[2020.07.11-09.51.56:756][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 48
+[2020.07.11-09.51.56:756][  0]SourceControl: Source control is disabled
+[2020.07.11-09.51.56:756][  0]SourceControl: Source control is disabled
+[2020.07.11-09.51.56:759][  0]SourceControl: Source control is disabled
+[2020.07.11-09.51.56:761][  0]SourceControl: Source control is disabled
+[2020.07.11-09.51.56:767][  0]SourceControl: Source control is disabled
+[2020.07.11-09.51.56:977][  0]LogMaterial: Display: Missing cached shader map for material M_VolumeRenderSphereTracePP, compiling. 
+[2020.07.11-09.51.57:200][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.11-09.51.57:240][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.11-09.51.57:241][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.07.11-09.51.57:337][  0]LogMaterial: Display: Missing cached shader map for material OculusMR_ChromaKey_Lit, compiling. 
+[2020.07.11-09.51.57:445][  0]LogMaterial: Display: Missing cached shader map for material OculusMR_OpaqueColoredMaterial, compiling. 
+[2020.07.11-09.51.57:451][  0]LogOcInput: OculusInput pre-init called
+[2020.07.11-09.51.57:481][  0]LogMaterial: Display: Missing cached shader map for material GearVRControllerMaterial, compiling. 
+[2020.07.11-09.51.57:502][  0]LogMaterial: Display: Missing cached shader map for material touchController_mat, compiling. 
+[2020.07.11-09.51.57:548][  0]LogMaterial: Display: Missing cached shader map for material PokeAHoleMaterial, compiling. 
+[2020.07.11-09.51.57:859][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshot, compiling. 
+[2020.07.11-09.51.57:882][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2020.07.11-09.51.57:900][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2020.07.11-09.51.57:955][  0]LogEngine: Initializing Engine...
+[2020.07.11-09.51.58:036][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.07.11-09.51.58:036][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.07.11-09.51.58:038][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.07.11-09.51.58:047][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2020.07.11-09.51.58:876][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2020.07.11-09.51.59:204][  0]LogMaterial: Display: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2020.07.11-09.51.59:881][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2020.07.11-09.52.00:557][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2020.07.11-09.52.00:857][  0]LogMaterial: Display: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2020.07.11-09.52.00:979][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2020.07.11-09.52.01:004][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2020.07.11-09.52.01:025][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2020.07.11-09.52.01:049][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2020.07.11-09.52.01:069][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2020.07.11-09.52.01:090][  0]LogMaterial: Display: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2020.07.11-09.52.01:097][  0]LogMaterial: Display: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2020.07.11-09.52.01:114][  0]LogMaterial: Display: Missing cached shader map for material EmissiveMeshMaterial, compiling. 
+[2020.07.11-09.52.01:129][  0]LogMaterial: Display: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2020.07.11-09.52.01:160][  0]LogMaterial: Display: Missing cached shader map for material GizmoMaterial, compiling. 
+[2020.07.11-09.52.01:174][  0]LogMaterial: Display: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2020.07.11-09.52.01:193][  0]LogMaterial: Display: Missing cached shader map for material GeomMaterial, compiling. 
+[2020.07.11-09.52.01:204][  0]LogMaterial: Display: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2020.07.11-09.52.01:219][  0]LogMaterial: Display: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2020.07.11-09.52.01:292][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial, compiling. 
+[2020.07.11-09.52.01:311][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2020.07.11-09.52.01:336][  0]LogMaterial: Display: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2020.07.11-09.52.01:352][  0]LogMaterial: Display: Missing cached shader map for material PhysicalMaterialMaskMaterial, compiling. 
+[2020.07.11-09.52.01:475][  0]LogMaterial: Display: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2020.07.11-09.52.01:577][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.07.11-09.52.01:592][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.11-09.52.01:592][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002087D67BC00), frame # 0
+[2020.07.11-09.52.01:593][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002087D6AEE80), frame # 0
+[2020.07.11-09.52.01:622][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.07.11-09.52.01:623][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.07.11-09.52.01:623][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.07.11-09.52.01:623][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.07.11-09.52.01:623][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.07.11-09.52.01:623][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.07.11-09.52.01:623][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.07.11-09.52.01:623][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.07.11-09.52.01:624][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.07.11-09.52.01:624][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.07.11-09.52.01:667][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.07.11-09.52.01:667][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.07.11-09.52.02:366][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4401
+[2020.07.11-09.52.02:366][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4391
+[2020.07.11-09.52.02:367][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 4381
+[2020.07.11-09.52.02:367][  0]LogAudioMixer: Display: Using Audio Device Speaker/Headphone (Realtek(R) Audio)
+[2020.07.11-09.52.02:370][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.07.11-09.52.02:375][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.07.11-09.52.02:375][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.07.11-09.52.02:377][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.07.11-09.52.02:379][  0]LogInit: FAudioDevice initialized.
+[2020.07.11-09.52.02:379][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.07.11-09.52.02:469][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4371
+[2020.07.11-09.52.02:469][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/timob/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.07.11-09.52.02:479][  0]LogInit: Texture streaming: Enabled
+[2020.07.11-09.52.02:513][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.11-09.52.02:514][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.07.11-09.52.02:517][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.07.11-09.52.02:546][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4361
+[2020.07.11-09.52.02:640][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4351
+[2020.07.11-09.52.02:640][  0]LogInit: Transaction tracking system initialized
+[2020.07.11-09.52.02:687][  0]BlueprintLog: New page: Editor Load
+[2020.07.11-09.52.02:823][  0]LocalizationService: Localization service is disabled
+[2020.07.11-09.52.02:983][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4341
+[2020.07.11-09.52.03:555][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4331
+[2020.07.11-09.52.03:555][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4321
+[2020.07.11-09.52.03:555][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.11-09.52.03:556][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.11-09.52.03:572][  0]LogFileCache: Scanning file cache for directory 'C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/' took 0.00s
+[2020.07.11-09.52.04:138][  0]SourceControl: Source control is disabled
+[2020.07.11-09.52.04:139][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.148
+[2020.07.11-09.52.04:139][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.11-09.52.04:139][  0]LightingResults: New page: Lighting Build
+[2020.07.11-09.52.04:141][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-09.52.04:141][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-09.52.04:141][  0]MapCheck: New page: Map Check
+[2020.07.11-09.52.04:141][  0]LightingResults: New page: Lighting Build
+[2020.07.11-09.52.04:156][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002087D67BC00), frame # 0
+[2020.07.11-09.52.04:156][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002087D6AEE80), frame # 0
+[2020.07.11-09.52.04:158][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.07.11-09.52.04:495][  0]LogLinker: Warning: While loading '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:495][  0]LogLinker: Warning: While loading '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:500][  0]LogLinker: Warning: While loading '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:500][  0]LogLinker: Warning: While loading '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:502][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:502][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:503][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:503][  0]LogLinker: Warning: Failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:619][  0]LogLinker: Warning: While loading '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:619][  0]LoadErrors: Failed to load /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2020.07.11-09.52.04:620][  0]LogLinker: Warning: While loading '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/TopDownBP/Maps/TopDownExampleMap.umap' failed to load '/Game/TopDownBP/Maps/TopDownExampleMap_BuiltData': Can't find file.
+[2020.07.11-09.52.04:620][  0]LoadErrors: Failed to load /Game/TopDownBP/Maps/TopDownExampleMap_BuiltData.TopDownExampleMap_BuiltData Referenced by PersistentLevel
+[2020.07.11-09.52.04:738][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2020.07.11-09.52.04:738][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002080B8CDC00), frame # 0
+[2020.07.11-09.52.04:738][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002080B8B7B00), frame # 0
+[2020.07.11-09.52.04:765][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.11-09.52.04:768][  0]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2020.07.11-09.52.04:852][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.07.11-09.52.04:853][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.11-09.52.04:853][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,25ms to complete.
+[2020.07.11-09.52.04:853][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.715
+[2020.07.11-09.52.04:856][  0]LogUnrealEdMisc: Total Editor Startup Time, took 14.866
+[2020.07.11-09.52.05:086][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-09.52.05:104][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-09.52.05:121][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-09.52.05:137][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.07.11-09.52.05:165][  0]LogCollectionManager: Loaded 0 collections in 0.003461 seconds
+[2020.07.11-09.52.05:219][  0]LogFileCache: Scanning file cache for directory 'C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/Collections/' took 0.00s
+[2020.07.11-09.52.05:219][  0]LogFileCache: Scanning file cache for directory 'C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Developers/timob/Collections/' took 0.00s
+[2020.07.11-09.52.05:219][  0]LogFileCache: Scanning file cache for directory 'C:/GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Collections/' took 0.00s
+[2020.07.11-09.52.05:219][  0]LogContentBrowser: Native class hierarchy populated in 0.0196 seconds. Added 3427 classes and 821 folders.
+[2020.07.11-09.52.05:229][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.07.11-09.52.05:994][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.07.11-09.52.05:999][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2020.07.11-09.52.06:071][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.11-09.52.06:075][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.11-09.52.06:101][  0]LogSlate: Took 0.015535 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.11-09.52.06:335][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 9 NumSamples 1 (Frame:1).
+[2020.07.11-09.52.06:831][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.07.11-09.52.06:831][  0]LogLoad: (Engine Initialization) Total time: 16.84 seconds
+[2020.07.11-09.52.06:831][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.11-09.52.06:897][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.07.11-09.52.07:316][  0]LogSlate: Took 0.013084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.11-09.52.07:344][  0]LogSlate: Took 0.015253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.07.11-09.52.07:395][  1]LogAssetRegistry: Asset discovery search completed in 11.9276 seconds
+[2020.07.11-09.52.07:408][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2020.07.11-09.52.10:845][144]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4311
+[2020.07.11-09.52.11:062][152]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4301
+[2020.07.11-09.52.11:402][165]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4291
+[2020.07.11-09.52.12:093][191]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4281
+[2020.07.11-09.52.14:986][332]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-09.52.14:997][332]LogSlate: Window 'Message Log' being destroyed
+[2020.07.11-09.52.16:037][376]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4271
+[2020.07.11-09.52.16:974][413]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4261
+[2020.07.11-09.52.17:232][424]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4251
+[2020.07.11-09.52.19:405][511]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4241
+[2020.07.11-09.52.19:919][532]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4231
+[2020.07.11-09.52.20:462][554]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4221
+[2020.07.11-09.52.21:806][608]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4211
+[2020.07.11-09.52.21:834][609]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4201
+[2020.07.11-09.52.22:824][649]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4191
+[2020.07.11-09.52.23:401][672]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4181
+[2020.07.11-09.52.24:421][713]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4171
+[2020.07.11-09.52.25:807][769]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4161
+[2020.07.11-09.52.26:269][787]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4151
+[2020.07.11-09.52.27:354][828]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4141
+[2020.07.11-09.52.28:417][898]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4131
+[2020.07.11-09.52.28:877][942]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4121
+[2020.07.11-09.52.29:010][957]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4111
+[2020.07.11-09.52.31:179][ 88]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4101
+[2020.07.11-09.52.31:292][ 99]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4091
+[2020.07.11-09.52.32:438][133]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4081
+[2020.07.11-09.52.32:669][144]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4071
+[2020.07.11-09.52.33:464][175]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4061
+[2020.07.11-09.52.33:873][191]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4051
+[2020.07.11-09.52.34:948][234]LogSlate: Window 'Source Control Login' being destroyed
+[2020.07.11-09.52.35:498][254]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4041
+[2020.07.11-09.52.36:023][275]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4031
+[2020.07.11-09.52.36:311][286]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4021
+[2020.07.11-09.52.37:263][324]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4011
+[2020.07.11-09.52.37:312][326]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4001
+[2020.07.11-09.52.37:961][350]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3991
+[2020.07.11-09.52.39:889][421]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3981
+[2020.07.11-09.52.40:309][438]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3971
+[2020.07.11-09.52.40:407][442]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3961
+[2020.07.11-09.52.41:504][486]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3951
+[2020.07.11-09.52.41:899][502]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3941
+[2020.07.11-09.52.42:346][520]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3931
+[2020.07.11-09.52.44:411][603]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3921
+[2020.07.11-09.52.44:663][613]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3911
+[2020.07.11-09.52.44:715][615]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3901
+[2020.07.11-09.52.45:159][633]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3891
+[2020.07.11-09.52.45:333][640]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3881
+[2020.07.11-09.52.45:697][655]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3871
+[2020.07.11-09.52.46:362][682]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3861
+[2020.07.11-09.52.48:206][755]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3851
+[2020.07.11-09.52.48:668][774]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3841
+[2020.07.11-09.52.49:134][796]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3831
+[2020.07.11-09.52.49:328][804]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3821
+[2020.07.11-09.52.49:573][814]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3811
+[2020.07.11-09.52.50:633][857]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3801
+[2020.07.11-09.52.51:677][899]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3791
+[2020.07.11-09.52.51:710][900]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3781
+[2020.07.11-09.52.52:077][915]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3771
+[2020.07.11-09.52.52:100][916]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3761
+[2020.07.11-09.52.52:849][946]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3751
+[2020.07.11-09.52.53:170][959]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3741
+[2020.07.11-09.52.53:268][963]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3731
+[2020.07.11-09.52.54:651][ 19]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3721
+[2020.07.11-09.52.55:595][ 57]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3711
+[2020.07.11-09.52.55:762][ 64]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3701
+[2020.07.11-09.52.56:132][ 79]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3691
+[2020.07.11-09.52.56:304][ 86]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3681
+[2020.07.11-09.52.56:491][ 93]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3671
+[2020.07.11-09.52.56:509][ 94]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3661
+[2020.07.11-09.52.57:198][122]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3651
+[2020.07.11-09.52.57:690][142]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3641
+[2020.07.11-09.52.59:543][217]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3631
+[2020.07.11-09.52.59:650][221]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3621
+[2020.07.11-09.52.59:669][222]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3611
+[2020.07.11-09.53.00:212][244]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3601
+[2020.07.11-09.53.00:595][259]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3591
+[2020.07.11-09.53.00:709][264]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3581
+[2020.07.11-09.53.01:407][292]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3571
+[2020.07.11-09.53.01:501][296]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3561
+[2020.07.11-09.53.03:563][379]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3551
+[2020.07.11-09.53.04:268][408]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3541
+[2020.07.11-09.53.04:667][424]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3531
+[2020.07.11-09.53.04:700][425]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3521
+[2020.07.11-09.53.05:138][443]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3511
+[2020.07.11-09.53.05:347][451]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3501
+[2020.07.11-09.53.05:391][453]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3491
+[2020.07.11-09.53.06:157][484]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3481
+[2020.07.11-09.53.07:687][546]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3471
+[2020.07.11-09.53.08:217][567]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3461
+[2020.07.11-09.53.08:653][585]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3451
+[2020.07.11-09.53.08:810][591]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3441
+[2020.07.11-09.53.08:957][597]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3431
+[2020.07.11-09.53.09:498][619]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3421
+[2020.07.11-09.53.09:549][621]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3411
+[2020.07.11-09.53.10:478][659]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3401
+[2020.07.11-09.53.11:142][686]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3391
+[2020.07.11-09.53.11:522][701]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3381
+[2020.07.11-09.53.12:543][742]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3371
+[2020.07.11-09.53.12:565][743]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3361
+[2020.07.11-09.53.13:058][763]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3351
+[2020.07.11-09.53.13:076][764]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3341
+[2020.07.11-09.53.13:737][791]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3331
+[2020.07.11-09.53.14:067][804]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3321
+[2020.07.11-09.53.15:151][848]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3311
+[2020.07.11-09.53.15:497][862]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3301
+[2020.07.11-09.53.16:053][884]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3291
+[2020.07.11-09.53.16:147][888]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3281
+[2020.07.11-09.53.16:544][904]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3271
+[2020.07.11-09.53.16:804][915]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3261
+[2020.07.11-09.53.17:808][955]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3251
+[2020.07.11-09.53.17:853][957]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3241
+[2020.07.11-09.53.18:340][962]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3231
+[2020.07.11-09.53.18:470][967]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3221
+[2020.07.11-09.53.18:966][987]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3211
+[2020.07.11-09.53.19:598][ 13]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3201
+[2020.07.11-09.53.19:721][ 18]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3191
+[2020.07.11-09.53.20:052][ 31]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3181
+[2020.07.11-09.53.20:424][ 46]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3171
+[2020.07.11-09.53.20:638][ 55]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3161
+[2020.07.11-09.53.21:109][ 74]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3151
+[2020.07.11-09.53.21:301][ 82]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3141
+[2020.07.11-09.53.21:594][ 94]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3131
+[2020.07.11-09.53.22:790][142]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3121
+[2020.07.11-09.53.22:961][149]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3111
+[2020.07.11-09.53.23:340][164]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3101
+[2020.07.11-09.53.23:380][166]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3091
+[2020.07.11-09.53.23:537][172]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3081
+[2020.07.11-09.53.23:710][179]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3071
+[2020.07.11-09.53.24:217][200]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 3061
+[2020.07.11-09.53.24:585][215]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3051
+[2020.07.11-09.53.25:680][259]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3041
+[2020.07.11-09.53.25:769][262]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3031
+[2020.07.11-09.53.26:064][274]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3021
+[2020.07.11-09.53.26:299][284]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3011
+[2020.07.11-09.53.26:901][308]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3001
+[2020.07.11-09.53.27:088][316]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2991
+[2020.07.11-09.53.27:104][316]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2981
+[2020.07.11-09.53.27:287][324]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2971
+[2020.07.11-09.53.28:116][357]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2961
+[2020.07.11-09.53.28:604][377]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2951
+[2020.07.11-09.53.29:093][397]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2941
+[2020.07.11-09.53.29:449][411]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2931
+[2020.07.11-09.53.29:593][417]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2921
+[2020.07.11-09.53.29:606][417]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2911
+[2020.07.11-09.53.30:860][468]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2901
+[2020.07.11-09.53.30:885][469]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2891
+[2020.07.11-09.53.31:021][475]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2881
+[2020.07.11-09.53.31:682][502]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2871
+[2020.07.11-09.53.31:767][505]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2861
+[2020.07.11-09.53.31:937][512]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2851
+[2020.07.11-09.53.32:563][537]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2841
+[2020.07.11-09.53.33:153][561]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2831
+[2020.07.11-09.53.33:794][587]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2821
+[2020.07.11-09.53.33:864][590]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2811
+[2020.07.11-09.53.33:990][595]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2801
+[2020.07.11-09.53.34:115][600]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2791
+[2020.07.11-09.53.35:257][646]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2781
+[2020.07.11-09.53.35:919][673]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2771
+[2020.07.11-09.53.36:528][697]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2761
+[2020.07.11-09.53.36:672][703]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2751
+[2020.07.11-09.53.37:417][725]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2741
+[2020.07.11-09.53.38:026][750]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2731
+[2020.07.11-09.53.38:231][758]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2721
+[2020.07.11-09.53.38:245][759]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2711
+[2020.07.11-09.53.39:378][805]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2701
+[2020.07.11-09.53.40:429][847]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2691
+[2020.07.11-09.53.40:534][851]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2681
+[2020.07.11-09.53.41:018][871]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2671
+[2020.07.11-09.53.41:334][884]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2661
+[2020.07.11-09.53.41:710][899]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2651
+[2020.07.11-09.53.42:184][918]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2641
+[2020.07.11-09.53.42:418][928]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2631
+[2020.07.11-09.53.43:652][977]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2621
+[2020.07.11-09.53.43:762][982]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2611
+[2020.07.11-09.53.44:543][ 13]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2601
+[2020.07.11-09.53.44:636][ 17]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2591
+[2020.07.11-09.53.45:352][ 46]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2581
+[2020.07.11-09.53.45:666][ 59]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2571
+[2020.07.11-09.53.46:448][ 90]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2561
+[2020.07.11-09.53.46:522][ 93]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2551
+[2020.07.11-09.53.46:624][ 97]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2541
+[2020.07.11-09.53.47:757][143]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2531
+[2020.07.11-09.53.48:276][164]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2521
+[2020.07.11-09.53.48:372][168]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2511
+[2020.07.11-09.53.49:744][224]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2501
+[2020.07.11-09.53.50:244][244]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2491
+[2020.07.11-09.53.50:268][245]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2481
+[2020.07.11-09.53.50:309][246]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2471
+[2020.07.11-09.53.50:324][247]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2461
+[2020.07.11-09.53.51:230][284]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2451
+[2020.07.11-09.53.52:045][317]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2441
+[2020.07.11-09.53.52:265][326]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2431
+[2020.07.11-09.53.53:500][375]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2421
+[2020.07.11-09.53.53:697][383]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2411
+[2020.07.11-09.53.54:531][417]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2401
+[2020.07.11-09.53.54:665][423]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2391
+[2020.07.11-09.53.54:816][429]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2381
+[2020.07.11-09.53.55:281][448]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2371
+[2020.07.11-09.53.55:586][460]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2361
+[2020.07.11-09.53.56:855][511]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2351
+[2020.07.11-09.53.56:912][513]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2341
+[2020.07.11-09.53.57:246][527]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2331
+[2020.07.11-09.53.58:653][584]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2321
+[2020.07.11-09.53.58:845][592]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2311
+[2020.07.11-09.53.58:853][592]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2301
+[2020.07.11-09.53.59:413][615]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2291
+[2020.07.11-09.53.59:538][620]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2281
+[2020.07.11-09.54.00:042][640]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2271
+[2020.07.11-09.54.00:633][664]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2261
+[2020.07.11-09.54.01:152][685]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2251
+[2020.07.11-09.54.01:854][713]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2241
+[2020.07.11-09.54.02:927][757]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2231
+[2020.07.11-09.54.02:959][758]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2221
+[2020.07.11-09.54.03:088][763]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2211
+[2020.07.11-09.54.03:436][777]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2201
+[2020.07.11-09.54.03:677][787]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2191
+[2020.07.11-09.54.04:204][808]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2181
+[2020.07.11-09.54.05:470][859]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2171
+[2020.07.11-09.54.05:934][878]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2161
+[2020.07.11-09.54.07:049][923]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2151
+[2020.07.11-09.54.07:186][928]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2141
+[2020.07.11-09.54.07:997][961]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2131
+[2020.07.11-09.54.08:126][966]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2121
+[2020.07.11-09.54.08:621][986]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2111
+[2020.07.11-09.54.08:688][989]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2101
+[2020.07.11-09.54.09:310][ 14]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2091
+[2020.07.11-09.54.10:336][ 55]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2081
+[2020.07.11-09.54.11:182][ 89]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2071
+[2020.07.11-09.54.11:391][ 98]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2061
+[2020.07.11-09.54.12:276][134]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2051
+[2020.07.11-09.54.12:522][144]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2041
+[2020.07.11-09.54.12:576][146]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2031
+[2020.07.11-09.54.12:780][154]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2021
+[2020.07.11-09.54.13:728][192]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2011
+[2020.07.11-09.54.13:996][203]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2001
+[2020.07.11-09.54.14:146][209]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1991
+[2020.07.11-09.54.14:965][242]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1981
+[2020.07.11-09.54.16:142][290]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1971
+[2020.07.11-09.54.16:345][298]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1961
+[2020.07.11-09.54.16:459][303]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1951
+[2020.07.11-09.54.16:521][305]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1941
+[2020.07.11-09.54.17:402][341]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1931
+[2020.07.11-09.54.17:754][355]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1921
+[2020.07.11-09.54.18:379][380]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1911
+[2020.07.11-09.54.19:339][419]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1901
+[2020.07.11-09.54.19:606][430]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1891
+[2020.07.11-09.54.19:946][444]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1881
+[2020.07.11-09.54.20:788][478]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1871
+[2020.07.11-09.54.21:493][506]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1861
+[2020.07.11-09.54.21:956][508]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1851
+[2020.07.11-09.54.22:081][515]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1841
+[2020.07.11-09.54.22:377][527]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1831
+[2020.07.11-09.54.23:872][590]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1821
+[2020.07.11-09.54.23:888][591]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1811
+[2020.07.11-09.54.24:610][620]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1801
+[2020.07.11-09.54.24:818][628]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1791
+[2020.07.11-09.54.25:806][668]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1781
+[2020.07.11-09.54.25:900][672]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1771
+[2020.07.11-09.54.25:981][675]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1761
+[2020.07.11-09.54.25:998][676]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1751
+[2020.07.11-09.54.27:397][733]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1741
+[2020.07.11-09.54.28:404][773]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1731
+[2020.07.11-09.54.28:509][777]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1721
+[2020.07.11-09.54.29:123][802]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1711
+[2020.07.11-09.54.29:137][803]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1701
+[2020.07.11-09.54.29:884][833]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1691
+[2020.07.11-09.54.30:151][844]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1681
+[2020.07.11-09.54.30:161][844]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1671
+[2020.07.11-09.54.30:225][847]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1661
+[2020.07.11-09.54.32:475][938]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1651
+[2020.07.11-09.54.32:548][941]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1641
+[2020.07.11-09.54.33:070][962]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1631
+[2020.07.11-09.54.33:565][982]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1621
+[2020.07.11-09.54.33:834][993]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1611
+[2020.07.11-09.54.33:940][997]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1601
+[2020.07.11-09.54.34:036][  1]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1591
+[2020.07.11-09.54.34:340][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1581
+[2020.07.11-09.54.36:253][ 90]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1571
+[2020.07.11-09.54.36:391][ 96]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1561
+[2020.07.11-09.54.36:647][106]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1551
+[2020.07.11-09.54.37:337][134]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1541
+[2020.07.11-09.54.37:669][148]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1531
+[2020.07.11-09.54.38:178][168]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1521
+[2020.07.11-09.54.38:690][189]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1511
+[2020.07.11-09.54.39:396][217]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1501
+[2020.07.11-09.54.39:767][235]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1491
+[2020.07.11-09.54.40:000][244]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1481
+[2020.07.11-09.54.40:837][278]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1471
+[2020.07.11-09.54.41:466][303]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1461
+[2020.07.11-09.54.41:485][304]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1451
+[2020.07.11-09.54.42:136][331]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1441
+[2020.07.11-09.54.43:049][368]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1431
+[2020.07.11-09.54.43:900][402]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1421
+[2020.07.11-09.54.43:912][402]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1411
+[2020.07.11-09.54.44:087][409]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1401
+[2020.07.11-09.54.44:216][414]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1391
+[2020.07.11-09.54.45:331][459]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1381
+[2020.07.11-09.54.45:372][461]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1371
+[2020.07.11-09.54.45:467][465]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1361
+[2020.07.11-09.54.47:422][545]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1351
+[2020.07.11-09.54.47:486][548]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1341
+[2020.07.11-09.54.47:603][552]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1331
+[2020.07.11-09.54.48:306][583]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1321
+[2020.07.11-09.54.48:455][589]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1311
+[2020.07.11-09.54.49:589][639]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1301
+[2020.07.11-09.54.49:656][645]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1291
+[2020.07.11-09.54.50:057][680]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1281
+[2020.07.11-09.54.52:084][795]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1271
+[2020.07.11-09.54.52:350][806]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1261
+[2020.07.11-09.54.52:461][810]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1251
+[2020.07.11-09.54.53:693][860]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1241
+[2020.07.11-09.54.53:893][868]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1231
+[2020.07.11-09.54.54:176][880]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1221
+[2020.07.11-09.54.54:256][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1211
+[2020.07.11-09.54.54:593][897]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1201
+[2020.07.11-09.54.56:429][971]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1191
+[2020.07.11-09.54.56:453][972]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1181
+[2020.07.11-09.54.56:913][990]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1171
+[2020.07.11-09.54.57:017][992]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1161
+[2020.07.11-09.54.57:995][ 35]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1151
+[2020.07.11-09.54.58:046][ 37]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1141
+[2020.07.11-09.54.58:706][ 66]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1131
+[2020.07.11-09.54.59:500][ 98]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1121
+[2020.07.11-09.54.59:531][ 99]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1111
+[2020.07.11-09.55.00:463][137]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1101
+[2020.07.11-09.55.01:160][164]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1091
+[2020.07.11-09.55.01:221][167]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1081
+[2020.07.11-09.55.01:304][170]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1071
+[2020.07.11-09.55.01:823][191]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1061
+[2020.07.11-09.55.02:973][237]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1051
+[2020.07.11-09.55.03:516][258]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1041
+[2020.07.11-09.55.03:667][264]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1031
+[2020.07.11-09.55.04:208][286]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1021
+[2020.07.11-09.55.04:263][288]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1011
+[2020.07.11-09.55.04:916][314]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1001
+[2020.07.11-09.55.05:231][327]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 991
+[2020.07.11-09.55.06:351][371]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 981
+[2020.07.11-09.55.06:784][373]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 971
+[2020.07.11-09.55.06:784][373]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 961
+[2020.07.11-09.55.07:032][385]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 951
+[2020.07.11-09.55.07:045][385]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 941
+[2020.07.11-09.55.07:765][414]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 931
+[2020.07.11-09.55.08:201][432]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 921
+[2020.07.11-09.55.08:335][437]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 911
+[2020.07.11-09.55.09:010][467]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 901
+[2020.07.11-09.55.09:370][482]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 891
+[2020.07.11-09.55.09:873][502]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 881
+[2020.07.11-09.55.09:890][503]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 871
+[2020.07.11-09.55.10:279][519]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 861
+[2020.07.11-09.55.10:329][521]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 851
+[2020.07.11-09.55.11:369][563]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 841
+[2020.07.11-09.55.11:693][576]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 831
+[2020.07.11-09.55.11:810][581]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 821
+[2020.07.11-09.55.12:757][619]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 811
+[2020.07.11-09.55.12:774][620]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 801
+[2020.07.11-09.55.12:899][625]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 791
+[2020.07.11-09.55.13:256][639]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 781
+[2020.07.11-09.55.13:279][640]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 771
+[2020.07.11-09.55.14:251][680]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 761
+[2020.07.11-09.55.14:792][702]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 751
+[2020.07.11-09.55.14:915][707]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 741
+[2020.07.11-09.55.15:494][730]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 731
+[2020.07.11-09.55.15:512][731]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 721
+[2020.07.11-09.55.15:935][748]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 711
+[2020.07.11-09.55.16:133][756]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 701
+[2020.07.11-09.55.16:377][766]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 691
+[2020.07.11-09.55.17:228][800]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 681
+[2020.07.11-09.55.17:348][805]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 671
+[2020.07.11-09.55.18:078][835]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 661
+[2020.07.11-09.55.18:183][839]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 651
+[2020.07.11-09.55.18:360][846]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 641
+[2020.07.11-09.55.18:776][863]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 631
+[2020.07.11-09.55.19:522][893]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 621
+[2020.07.11-09.55.19:748][902]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 611
+[2020.07.11-09.55.20:503][933]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 601
+[2020.07.11-09.55.20:602][937]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 591
+[2020.07.11-09.55.20:663][939]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 581
+[2020.07.11-09.55.20:679][940]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 571
+[2020.07.11-09.55.21:665][980]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 561
+[2020.07.11-09.55.21:971][992]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 551
+[2020.07.11-09.55.22:535][ 15]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 541
+[2020.07.11-09.55.22:579][ 17]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 531
+[2020.07.11-09.55.22:836][ 27]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 521
+[2020.07.11-09.55.23:658][ 61]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 511
+[2020.07.11-09.55.23:865][ 69]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 501
+[2020.07.11-09.55.24:717][104]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 491
+[2020.07.11-09.55.25:361][130]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 481
+[2020.07.11-09.55.25:833][149]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 471
+[2020.07.11-09.55.27:163][195]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 461
+[2020.07.11-09.55.27:312][201]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 451
+[2020.07.11-09.55.27:320][201]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 441
+[2020.07.11-09.55.27:998][229]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 431
+[2020.07.11-09.55.28:553][251]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 421
+[2020.07.11-09.55.29:612][294]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 411
+[2020.07.11-09.55.29:755][300]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 401
+[2020.07.11-09.55.31:462][369]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 391
+[2020.07.11-09.55.31:481][370]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 381
+[2020.07.11-09.55.31:546][372]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 371
+[2020.07.11-09.55.31:989][390]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 361
+[2020.07.11-09.55.32:623][416]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 351
+[2020.07.11-09.55.32:774][421]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 341
+[2020.07.11-09.55.33:187][441]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 331
+[2020.07.11-09.55.33:545][456]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 321
+[2020.07.11-09.55.34:982][514]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 311
+[2020.07.11-09.55.35:254][525]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 301
+[2020.07.11-09.55.35:525][536]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 291
+[2020.07.11-09.55.35:570][538]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 281
+[2020.07.11-09.55.36:439][573]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 271
+[2020.07.11-09.55.37:197][604]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 261
+[2020.07.11-09.55.38:017][637]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 251
+[2020.07.11-09.55.38:199][644]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 241
+[2020.07.11-09.55.38:904][673]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 231
+[2020.07.11-09.55.40:108][722]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 221
+[2020.07.11-09.55.40:477][737]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 211
+[2020.07.11-09.55.41:083][764]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 201
+[2020.07.11-09.55.42:483][854]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 191
+[2020.07.11-09.55.42:753][874]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 181
+[2020.07.11-09.55.43:031][886]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 171
+[2020.07.11-09.55.43:901][920]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 161
+[2020.07.11-09.55.44:539][946]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 151
+[2020.07.11-09.55.46:165][ 63]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 141
+[2020.07.11-09.55.46:475][ 75]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 131
+[2020.07.11-09.55.47:219][105]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 121
+[2020.07.11-09.55.47:752][127]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 111
+[2020.07.11-09.55.48:529][158]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 101
+[2020.07.11-09.55.48:600][161]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 91
+[2020.07.11-09.55.49:058][180]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 81
+[2020.07.11-09.55.49:092][181]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 71
+[2020.07.11-09.55.51:096][262]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 62
+[2020.07.11-09.55.51:151][264]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 54
+[2020.07.11-09.55.52:051][301]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 47
+[2020.07.11-09.55.52:781][330]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 41
+[2020.07.11-09.55.53:252][349]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 35
+[2020.07.11-09.55.53:450][356]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 30
+[2020.07.11-09.55.53:485][358]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 26
+[2020.07.11-09.55.54:063][381]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 22
+[2020.07.11-09.55.54:784][410]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 19
+[2020.07.11-09.55.54:998][419]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 16
+[2020.07.11-09.55.55:325][432]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2020.07.11-09.55.55:367][434]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
+[2020.07.11-09.55.55:584][443]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2020.07.11-09.55.55:697][447]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2020.07.11-09.55.55:710][448]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 6
+[2020.07.11-09.55.55:721][448]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2020.07.11-09.55.55:882][454]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.07.11-09.55.55:943][456]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.07.11-09.55.55:958][457]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.07.11-09.55.56:052][461]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.07.11-09.56.25:698][772]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.11-09.56.25:728][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.07.11-09.56.25:740][772]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/L_GridTestEnv4FA2FEED47D32C974B7E66BD9CEAED9E.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Maps/L_GridTestEnv.umap'
+[2020.07.11-09.56.25:843][772]LogFileHelpers: Saving map 'L_GridTestEnv' took 0.128
+[2020.07.11-09.56.25:852][772]AssetCheck: New page: Asset Save: L_GridTestEnv
+[2020.07.11-09.56.25:852][772]LogContentValidation: Display: Validating World /Game/Maps/L_GridTestEnv.L_GridTestEnv
+[2020.07.11-09.56.26:565][800]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/L_GridTestEnv.L_GridTestEnv
+[2020.07.11-09.56.26:575][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.07.11-09.56.26:576][800]Cmd: MAP LOAD FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/Maps/L_GridTestEnv.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.11-09.56.26:576][800]LightingResults: New page: Lighting Build
+[2020.07.11-09.56.26:576][800]LoadErrors: New page: Loading map: L_GridTestEnv.umap
+[2020.07.11-09.56.26:617][800]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.07.11-09.56.26:617][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.07.11-09.56.26:617][800]MapCheck: New page: Map Check
+[2020.07.11-09.56.26:617][800]LightingResults: New page: Lighting Build
+[2020.07.11-09.56.26:626][800]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002080B8CDC00), frame # 10800
+[2020.07.11-09.56.26:626][800]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002080B8B7B00), frame # 10800
+[2020.07.11-09.56.26:627][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.07.11-09.56.26:630][800]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.11-09.56.26:630][800]LogAIModule: Creating AISystem for world L_GridTestEnv
+[2020.07.11-09.56.26:630][800]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000208648F5000), frame # 10800
+[2020.07.11-09.56.26:630][800]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020806900900), frame # 10800
+[2020.07.11-09.56.26:639][800]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2020.07.11-09.56.26:655][800]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.11-09.56.26:655][800]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,1ms to complete.
+[2020.07.11-09.56.26:655][800]LogFileHelpers: Loading map 'L_GridTestEnv' took 0.079
+[2020.07.11-09.56.36:834][401]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2020.07.11-09.56.45:750][869]LogSlate: Took 0.005477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.11-09.56.56:796][574]LogEditorViewport: Clicking Background
+[2020.07.11-09.57.03:981][867]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.07.11-09.57.20:575][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/BP_GridTile" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset" SILENT=true
+[2020.07.11-09.57.20:587][774]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTile1259CD1E499C8EF7BC7054B47FE005A3.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset'
+[2020.07.11-09.57.20:701][774]AssetCheck: New page: Asset Save: BP_GridTile
+[2020.07.11-09.57.20:701][774]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-09.57.35:390][736]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
+[2020.07.11-09.57.35:566][736]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.07.11-09.57.37:955][846]LogRenderer: Reallocating scene render targets to support 1208x712 Format 9 NumSamples 1 (Frame:106).
+[2020.07.11-09.58.00:815][321]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.07.11-09.58.20:679][679]LogSlate: Window 'BP_GridTile' being destroyed
+[2020.07.11-09.58.25:487][922]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.07.11-09.58.55:478][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.07.11-09.58.55:480][286]LogMetaData: Removing '/Game/GridSystem/AC_GridUI.SKEL_AC_GridUI_C' ref from Metadata '/Game/GridSystem/AC_GirdUI.PackageMetaData'
+[2020.07.11-09.58.55:480][286]LogMetaData: Removing '/Game/GridSystem/AC_GridUI.AC_GridUI_C' ref from Metadata '/Game/GridSystem/AC_GirdUI.PackageMetaData'
+[2020.07.11-09.58.55:480][286]LogMetaData: Removing '/Game/GridSystem/AC_GridUI.AC_GridUI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GridSystem/AC_GirdUI.PackageMetaData'
+[2020.07.11-09.58.55:480][286]LogMetaData: Removing '/Game/GridSystem/AC_GridUI.AC_GridUI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GridSystem/AC_GirdUI.PackageMetaData'
+[2020.07.11-09.58.55:517][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/AC_GridUI" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/AC_GridUI.uasset" SILENT=true
+[2020.07.11-09.58.55:525][286]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/AC_GridUIE897E3BE44A2E33C4246B5B52B04FD49.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/AC_GridUI.uasset'
+[2020.07.11-09.58.55:840][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.07.11-09.58.55:864][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.07.11-09.58.55:880][286]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2020.07.11-09.58.55:903][286]AssetCheck: New page: Asset Save: AC_GridUI
+[2020.07.11-09.58.55:903][286]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/AC_GridUI.AC_GridUI
+[2020.07.11-09.59.04:982][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2020.07.11-09.59.06:267][829]LogSlate: Window 'Delete Assets' being destroyed
+[2020.07.11-09.59.06:371][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.07.11-09.59.08:237][ 35]BlueprintLog: New page: Compile BP_GridTile
+[2020.07.11-09.59.08:264][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.07.11-09.59.08:865][ 95]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GridSystem/BP_GridTile" FILE="../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset" SILENT=true
+[2020.07.11-09.59.08:879][ 95]LogSavePackage: Moving '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Saved/BP_GridTileADA127B74EB1E28DC0E66EA68AA0C125.tmp' to '../../../../../../GitHub Repositories/Lunch-Lounge-GMTK-Jam/KeybindWarriors/Content/GridSystem/BP_GridTile.uasset'
+[2020.07.11-09.59.08:890][ 95]AssetCheck: New page: Asset Save: BP_GridTile
+[2020.07.11-09.59.08:890][ 95]LogContentValidation: Display: Validating Blueprint /Game/GridSystem/BP_GridTile.BP_GridTile
